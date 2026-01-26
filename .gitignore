@@ -1,0 +1,44 @@
+# Python 缓存文件（补充z后缀，兼容更多编译文件）
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE 配置（PyCharm/IDEA）
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 环境变量/敏感配置（适配FastAPI，覆盖本地/远程环境）
+.env
+.env.local
+.env.*.local
+
+# 日志文件（适配项目日志输出）
+*.log
+logs/
+
+# 数据库文件（适配Alembic/本地数据库）
+*.db
+*.sqlite3
+
+# Alembic 迁移文件（必须跟踪，保留注释）
+# alembic/versions/

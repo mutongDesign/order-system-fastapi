@@ -1,0 +1,1 @@
+from .DesignerTableBase import DesignerRegisterTable

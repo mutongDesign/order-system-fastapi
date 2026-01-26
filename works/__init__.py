@@ -1,0 +1,1 @@
+from .WorksTableBase import WorksTableBase, WorksImageTableBase
