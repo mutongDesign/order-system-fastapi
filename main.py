@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+import uvicorn
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 project_root = Path(__file__).parent
@@ -83,3 +84,6 @@ app.add_websocket_route("/watch_login_status", watch_login_status)
 
 
 
+if __name__ == "__main__":
+    # 确保端口与宝塔设置的一致（假设是8000）
+    uvicorn.run(app, host="0.0.0.0", port=8000)
