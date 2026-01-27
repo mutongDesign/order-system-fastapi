@@ -13,3 +13,6 @@ SQLAlchemy==2.0.46
 starlette==0.52.1
 upyun==2.5.5
 websockets==15.0.1
+fastapi
+gunicorn
+uvicorn[standard]
