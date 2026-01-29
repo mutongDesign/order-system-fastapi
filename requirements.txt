@@ -9,7 +9,6 @@ PyJWT==2.10.1
 python_dateutil==2.9.0.post0
 qiniu==7.17.0
 SQLAlchemy==2.0.46
-starlette==0.52.1
 upyun==2.5.5
 websockets==15.0.1
 uvicorn[standard]
